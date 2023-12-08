@@ -1,0 +1,26 @@
+.box{
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 10px #696767;
+    border-radius: 10px;
+    width: 5rem;
+    height: 5rem;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+    list-style: 5rem;
+    line-height: 5rem;
+    margin: 0.5rem;
+}
+.box:hover{
+    box-shadow: 0px 0px 20px #1d0288;
+}
+
+.x.box{
+    color: var(--xRed);
+    box-shadow: 0px 0px 10px red;
+}
+.o{
+    color: var(--oBlack);
+   
+}

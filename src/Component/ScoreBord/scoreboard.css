@@ -1,0 +1,45 @@
+.ScoreBoard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #888;
+    width: 25%;
+    margin: 2rem auto;
+    font-weight: bold;
+    font-size: 22px;
+}
+.x-score{
+ color: var(--xRed);
+ width: 100%;
+ padding: 15px;
+}
+.o-score{
+    color: var(--yBlack);
+    width: 100%;
+    padding: 15px;
+}
+.tie{
+    color: blue;
+    width: 100%;
+    padding: 15px;
+}
+.oplay{
+    
+    background-color: rgb(127, 208, 127);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.xplay{
+ 
+    background-color: rgb(127, 208, 127);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+@media screen {
+.ScoreBoard {
+    width: 35%;
+} 
+}
